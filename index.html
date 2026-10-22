@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101a22">
+  <meta name="description" content="An offline-friendly COMP 424 practice test built from the midterm crib sheet.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <title>COMP 424: Midterm Test Lab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#" id="home-link" aria-label="Midterm Test Lab home">
+        <span class="brand-mark" aria-hidden="true">T<span>L</span></span>
+        <span><strong>MIDTERM TEST LAB</strong><small>COMP 424 · ARTIFICIAL INTELLIGENCE</small></span>
+      </a>
+      <div class="top-actions">
+        <button class="icon-button" id="theme-toggle" type="button" aria-label="Toggle color theme" title="Toggle color theme">◐</button>
+        <button class="quiet-button" id="progress-button" type="button">My progress</button>
+      </div>
+    </header>
+
+    <main id="app" class="main-content" tabindex="-1"></main>
+
+    <footer class="footer">
+      <span>Study locally. No account, analytics, or AI key.</span>
+      <span id="save-status" role="status" aria-live="polite">Progress saves in this browser.</span>
+    </footer>
+  </div>
+  <script src="question-bank.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

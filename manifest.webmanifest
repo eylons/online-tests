@@ -1,0 +1,13 @@
+{
+  "name": "COMP 424: Midterm Test Lab",
+  "short_name": "Test Lab",
+  "description": "An offline-friendly COMP 424 midterm practice test.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#101a22",
+  "theme_color": "#101a22",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
